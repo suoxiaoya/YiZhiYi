@@ -1,0 +1,509 @@
+@import url("reset.css");
+.wrap {
+  width: 100%;
+  height: auto;
+  background: #ffffff;
+}
+.wrap header {
+  width: 100%;
+  height: 8rem;
+  background: #333333;
+}
+.wrap header .header {
+  width: 100rem;
+  height: 8rem;
+  background: #333333;
+  margin: 0 auto;
+  line-height: 8rem;
+}
+.wrap header .header span {
+  float: left;
+  display: block;
+  color: white;
+  font-size: 40px;
+}
+.wrap header .header ul {
+  float: right;
+}
+.wrap header .header ul li {
+  float: left;
+  color: white;
+  font-size: 25px;
+  margin: 0 1rem;
+}
+.wrap header .header ul li a {
+  color: white;
+}
+.wrap header .header ul li a:hover {
+  color: #4194f0;
+}
+.wrap section {
+  width: 100%;
+  height: auto;
+  background: none;
+}
+.wrap section .swiper-container {
+  width: 100%;
+  height: 300px;
+  background: none;
+}
+.wrap section .content {
+  width: 100rem;
+  height: auto;
+  background: none;
+  margin: 0 auto;
+}
+.wrap section .content .con_a {
+  width: 85rem;
+  height: 40rem;
+  background: none;
+  margin: 0 auto;
+}
+.wrap section .content .con_a span {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+}
+.wrap section .content .con_a span h1 {
+  font-weight: bold;
+}
+.wrap section .content .con_a dl {
+  width: 85rem;
+  height: 30rem;
+  background: none;
+}
+.wrap section .content .con_a dl dt {
+  display: block;
+  width: 40rem;
+  height: 30rem;
+  background: none;
+  float: left;
+  font-size: 18px;
+}
+.wrap section .content .con_a dl dt p {
+  text-indent: 2em;
+  line-height: 3rem;
+}
+.wrap section .content .con_a dl dt p img {
+  width: 2.5rem;
+  height: 2.5rem;
+  background: none;
+  vertical-align: middle;
+}
+.wrap section .content .con_a dl dd {
+  display: block;
+  width: 40rem;
+  height: 30rem;
+  background: none;
+  float: right;
+  position: relative;
+}
+.wrap section .content .con_a dl dd .img1 {
+  width: 38rem;
+  height: 30rem;
+  background: none;
+  position: absolute;
+  z-index: 99;
+  left: 0;
+  top: 0;
+}
+.wrap section .content .con_a dl dd .dd_sp {
+  display: block;
+  width: 38rem;
+  height: 26rem;
+  background: #ffc0cb;
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+.wrap section .content .con_b {
+  width: 100rem;
+  height: 38rem;
+  background: none;
+  margin: 3rem auto;
+}
+.wrap section .content .con_b .con_bsp1 {
+  display: block;
+  text-align: center;
+  padding-top: 1rem;
+}
+.wrap section .content .con_b .con_bsp1 h1 {
+  margin-top: 3rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+.wrap section .content .con_b .con_bsp1 h6 {
+  font-weight: bold;
+  font-size: 18px;
+  color: #8b2f4c;
+}
+.wrap section .content .con_b .ulyoushi {
+  width: 90rem;
+  height: 25rem;
+  background: none;
+  margin: 1rem auto;
+}
+.wrap section .content .con_b .ulyoushi div {
+  width: 20rem;
+  height: 25rem;
+  background: none;
+  float: left;
+  border: 1px solid #c7c2a2;
+  margin-right: 2rem;
+}
+.wrap section .content .con_b .ulyoushi div p {
+  display: block;
+  line-height: 2.5rem;
+  height: 20rem ;
+  padding: 0 2rem;
+}
+.wrap section .content .con_b .ulyoushi div p i {
+  display: block;
+  font-weight: bold;
+  line-height: 3rem;
+}
+.wrap section .content .con_b .ulyoushi div .ul1_sp {
+  display: block;
+  height: 5rem;
+  line-height: 5rem;
+  text-align: center;
+  background: #f3f1ec;
+  color: #8b2f4c;
+}
+.wrap section .content .con_b .ulyoushi div:nth-child(1) {
+  background: #dad5c2;
+}
+.wrap section .content .con_b .ulyoushi div:nth-child(2) {
+  background: #d0ced1;
+}
+.wrap section .content .con_b .ulyoushi div:nth-child(3) {
+  background: #b6e3f3;
+}
+.wrap section .content .con_b .ulyoushi div:nth-child(4) {
+  background: #ebd684;
+}
+.wrap section .content .con_b .lbox {
+  width: 40rem;
+  height: 4rem;
+  background: #ffc0cb;
+  margin: 2rem auto;
+}
+.wrap section .content .con_b .lbox span:nth-child(1) {
+  display: inline-block;
+  width: 20rem;
+  height: 4rem;
+  background: #ac132f;
+  color: white;
+  line-height: 4rem;
+  text-align: center;
+}
+.wrap section .content .con_b .lbox span:nth-child(1) a {
+  color: white;
+}
+.wrap section .content .con_b .lbox span:nth-child(1) a:hover {
+  color: red;
+}
+.wrap section .content .con_b .lbox span:nth-child(2) {
+  display: inline-block;
+  width: 20rem;
+  height: 4rem;
+  background: #221e1f;
+  color: white;
+  line-height: 4rem;
+  text-align: center;
+}
+.wrap section .content .con_b .lbox span:nth-child(2) a {
+  color: white;
+}
+.wrap section .content .con_b .lbox span:nth-child(2) a:hover {
+  color: red;
+}
+.wrap section .content .con_c {
+  width: 100rem;
+  height: 66rem;
+  background: none;
+  margin: 3rem auto;
+}
+.wrap section .content .con_c span {
+  display: block;
+  text-align: center;
+  padding: 2rem 0;
+}
+.wrap section .content .con_c span h1 {
+  font-weight: bold;
+}
+.wrap section .content .con_c .kecheng {
+  margin: 0 auto;
+}
+.wrap section .content .con_c .kecheng img {
+  display: block;
+  width: 85rem;
+  height: auto;
+  background: none;
+  margin: 0 auto;
+  border: 1px solid #c1c1c1;
+}
+.wrap section .content .con_c .kecheng .table {
+  width: 85rem;
+  height: auto;
+  background: none;
+  border: 1px solid #c1c1c1;
+  margin: 0 auto;
+  font-size: 1.4rem;
+}
+.wrap section .content .con_c .kecheng .table ul {
+  border: 1px solid #c1c1c1;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.wrap section .content .con_c .kecheng .table ul li {
+  float: left;
+  display: inline-block;
+  width: 16.5rem;
+}
+.wrap section .content .con_c .kecheng .table ul:nth-child(1) {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 40px;
+}
+.wrap section .content .con_d {
+  width: 85rem;
+  height: 52rem;
+  background: none;
+  margin: 7rem auto;
+}
+.wrap section .content .con_d span {
+  display: block;
+  text-align: center;
+  padding-top: 2rem;
+}
+.wrap section .content .con_d span h1 {
+  font-weight: bold;
+}
+.wrap section .content .con_d .zuopin {
+  width: 85rem;
+  height: auto;
+  background: none;
+}
+.wrap section .content .con_d .zuopin .top .left {
+  float: left;
+  width: 30rem;
+  height: 30rem;
+  background: none;
+  overflow: hidden;
+}
+.wrap section .content .con_d .zuopin .top .left img {
+  width: 35rem;
+  height: 35rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.wrap section .content .con_d .zuopin .top .left img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.wrap section .content .con_d .zuopin .top .cen {
+  float: left;
+  width: 38rem;
+  height: 30rem;
+  background: none;
+  margin-left: 1.5rem;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_top {
+  width: 37rem;
+  height: 15rem;
+  background: none;
+  overflow: hidden;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_top img {
+  width: 42rem;
+  height: 20rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_top img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_bot {
+  width: 37rem;
+  height: 13rem;
+  background: none;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_bot span {
+  width: 16rem;
+  height: 13rem;
+  background: none;
+  display: inline-block;
+  margin: 0 1rem;
+  overflow: hidden;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_bot span img {
+  width: 16rem;
+  height: 18rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.wrap section .content .con_d .zuopin .top .cen .cen_bot span img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.wrap section .content .con_d .zuopin .top .right {
+  float: right;
+  width: 15rem;
+  height: 30rem;
+  background: none;
+  overflow: hidden;
+}
+.wrap section .content .con_d .zuopin .top .right img {
+  float: right;
+  width: 20rem;
+  height: 35rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.wrap section .content .con_d .zuopin .top .right img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.wrap section .content .con_d .zuopin .bot {
+  width: 85rem;
+  height: auto;
+  background: none;
+  margin-top: 2rem;
+}
+.wrap section .content .con_d .zuopin .bot ul {
+  width: 85rem;
+  height: auto;
+  background: none;
+}
+.wrap section .content .con_d .zuopin .bot ul li {
+  float: left;
+  width: 10rem;
+  height: 10rem;
+  background: none;
+  border: 1px solid #4194F0;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 0.2rem;
+}
+.wrap section .content .con_d .zuopin .bot ul li img {
+  width: 10rem;
+  height: 11rem;
+  background: none;
+  cursor: pointer;
+  transition: all 0.6s;
+}
+.wrap section .content .con_d .zuopin .bot ul li img:hover {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+}
+.wrap section .content .con_e {
+  width: 85rem;
+  height: auto;
+  background: none;
+  margin: 6rem auto;
+  position: relative;
+}
+.wrap section .content .con_e img {
+  width: 85rem;
+  height: auto;
+  background: none;
+}
+.wrap section .content .con_e h1 {
+  position: absolute;
+  display: block;
+  width: 200px;
+  height: 100px;
+  background: none;
+  color: #000000;
+  font-size: 30px;
+  text-align: center;
+  line-height: 100px;
+  left: 0;
+  top: 0;
+}
+.wrap section .content .con_e p {
+  position: absolute;
+  display: block;
+  width: 70rem;
+  height: 30rem;
+  background: none;
+  font-size: 2rem;
+  left: 100px;
+  top: 100px;
+  margin: 0 auto;
+}
+.wrap footer {
+  width: 100%;
+  height: 20rem;
+  background: #333333;
+}
+.wrap footer .uldibu1 {
+  width: 85rem;
+  height: 5rem;
+  background: #333333;
+  margin: 0 auto;
+}
+.wrap footer .uldibu1 li {
+  float: left;
+  line-height: 5rem;
+  text-align: center;
+  width: 9%;
+  padding: 5px 0;
+  box-sizing: border-box;
+  margin-left: 10px;
+}
+.wrap footer .uldibu1 li a {
+  font-size: 14px;
+}
+.wrap footer .uldibu1 li:nth-child(3) {
+  width: auto;
+}
+.wrap footer .uldibu2 {
+  width: 100%;
+  height: 15rem;
+  background: #333333;
+}
+.wrap footer .uldibu2 h1 {
+  display: block;
+  width: 50rem;
+  height: 5rem;
+  background: none;
+  line-height: 5rem;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.7rem;
+}
+.wrap footer .uldibu2 .lbox {
+  width: 40rem;
+  height: 10rem;
+  background: #333333;
+  margin: 0 auto;
+}
+.wrap footer .uldibu2 .lbox span {
+  display: inline-block;
+  float: left;
+  margin: 0 2rem;
+  font-size: 25px;
+  line-height: 5rem;
+}
